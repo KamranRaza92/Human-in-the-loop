@@ -16,7 +16,7 @@
             btn.disabled = true;
 
             try {
-                const webhookUrl = 'http://localhost:5678/webhook-test/2f3e2ea8-5844-4c69-a15d-5eb97c088de4';
+                const webhookUrl = 'http://localhost:5678/webhook/2f3e2ea8-5844-4c69-a15d-5eb97c088de4';
                 
                 const response = await fetch(webhookUrl, {
                     method: 'POST',
