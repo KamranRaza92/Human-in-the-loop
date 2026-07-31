@@ -4,7 +4,7 @@ Write a professional email based on the following details:
 - Sender: Farzeen Ali, Founder of The Techzeen.
 - Recipient's Name: {{ $json.body.recipient_name }}
 - Current Date: {{ $now.format('MMMM DD, YYYY') }}
-- Location Context: The Techzeen HQ / Online.
+- Location Context: Aipect International HQ / Online.
 
 Constraints:
 1. Strictly NO placeholders like [Date] or [Recipient Name].
